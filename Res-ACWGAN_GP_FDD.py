@@ -274,7 +274,7 @@ class ACWGANGP():
         x = range(len(hist['D_all']))
         plt.subplot(1, 2, 1)
         plt.plot(train_hist['D_all'], label='D')
-        plt.plot(train_hist['G_b'], label='G')
+        plt.plot(train_hist['G_all'], label='G')
         plt.xlabel('Epoch')
         plt.legend()
         plt.subplot(1, 2, 2)
