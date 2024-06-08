@@ -218,7 +218,7 @@ def show_train_hist(hist, show=False, save=False):
     x = range(len(hist['D_all']))
     plt.subplot(1, 2, 1)
     plt.plot(hist['D_all'], label='D')
-    plt.plot(hist['G_b'], label='G')
+    plt.plot(hist['G_all'], label='G')
     plt.xlabel('Epoch')
     plt.legend()
     plt.subplot(1, 2, 2)
