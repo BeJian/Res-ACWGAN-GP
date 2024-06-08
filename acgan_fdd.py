@@ -1,5 +1,3 @@
-# Reference : https://machinelearningmastery.com/how-to-develop-an-auxiliary-classifier-gan-ac-gan-from-scratch-with-keras/
-
 from numpy import zeros
 from numpy import ones
 from numpy.random import randn
