@@ -1,4 +1,6 @@
 # Res-ACWGAN-GP
+Our paper: [click](https://www.sciencedirect.com/science/article/pii/S0360132325000113)  
+  
 Res-ACWGAN-GP is an end-to-end GAN for AHU FDD with limited fault data.
 This code achieves fault diagnosis while enhancing fault data through the improvement of ACGAN. The synthetic data is continuously optimized during the training process based on the fault diagnosis scores.  
 
